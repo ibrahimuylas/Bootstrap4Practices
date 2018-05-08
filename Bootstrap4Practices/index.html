@@ -1,0 +1,123 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container border border-dark">
+        <div class="text-center">
+            <img src="http://via.placeholder.com/200x100" />
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-1">
+            <a class="navbar-brand" href="#">Bootstrap 4 Test</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.yolacikmali.com" target="_blank">Yola Çıkmalı
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid border border-danger p-2">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Kitap 1</h3>
+                    <Lorem>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facilis dignissimos obcaecati aliquam,
+                        labore impedit cupiditate eaque quasi incidunt exercitationem optio porro fugit voluptates quis reprehenderit
+                        magnam, quam facere asperiores!</Lorem>
+                </div>
+                <div class="col-md-4">
+                    <h3>Kitap 2</h3>
+                    <lorem> Lorem, ipsum dolor sit amet consectetur adipisicing elit. In illum minima eaque, quidem nostrum veritatis
+                        excepturi adipisci esse reprehenderit placeat doloribus debitis voluptate unde dolore vero. Quas
+                        perferendis repellendus odio.</lorem>
+                </div>
+                <div class="col-md-4">
+                    <h3>Kitap 3</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio provident quae voluptatem doloribus, officiis eveniet expedita
+                    quis nihil aperiam iusto. Accusamus ea ducimus qui vel eligendi fuga iure dolores voluptate.
+                </div>
+            </div>
+        </div>
+
+        <div class="media pt-3 pb-3">
+            <img class="mr-3" src="http://via.placeholder.com/100x200" alt="Generic placeholder image">
+            <div class="media-body">
+                <h5 class="mt-0">Media heading</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
+                felis in faucibus.
+            </div>
+        </div>
+
+        <div class="container mb-4">
+            <div class="row">
+                <div class="col-md-1 ml-auto">
+                    <label for="userId" class="card-text">Username</label>
+                </div>
+                <div class="col-md-2">
+                    <input id="userId" type="text" class="text-uppercase" />
+                </div>
+                <div class="col-md-1">
+                    <label for="pwd">Password</label>
+                </div>
+                <div class="col-md-2">
+                    <input id="pwd" type="password" />
+                </div>
+                <div class="col-md-2">
+                    <input id="submit" type="submit" value="Login" class="btn btn-info" data-toggle="modal" data-target="#exampleModal" />
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Authorization Control</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Username or Password is wrong!
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
