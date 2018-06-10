@@ -1,0 +1,19 @@
+.card img{
+    max-height: 260px;
+}
+.card-img-overlay{
+margin-top: 120px;
+}
+
+@media (max-width: 576px){
+    .card-img-overlay{
+        margin-top: 40px;
+        }
+
+
+        .card-img-left {
+            height: 160px;
+            margin: 10px;
+            width: 100% !important;
+        }
+}
